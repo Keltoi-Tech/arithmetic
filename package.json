@@ -1,0 +1,28 @@
+{
+  "name": "@keltoi/arithmoi",
+  "version": "1.0.0",
+  "description": "Arithmetic builder for help business",
+  "author":"Keltoi",
+  "scripts": {
+    "test": "npm run build & npm link",
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist/**/*.js","dist/arithmetics/basic.js","dist/arithmetics/boolean.js"
+  ],
+  "bugs": {
+    "email": "devops@keltoi.tech"
+  },
+  "keywords": [
+    "formula","arithmetic","business"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.18.0"
+  }
+}
